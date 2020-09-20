@@ -1,0 +1,23 @@
+Package: montyhall
+Title: Monty Hall Problem Game
+Version: 0.0.0.9000
+Authors@R: 
+    person(given = "Michael",
+           family = "Kulbdia",
+           role = Author,
+           email = "michael.kulbida@asu.edu",
+           comment = c(ORCID = "YOUR-ORCID-ID"))
+Description: This package simulates the Monty Hall Problem
+game.  There are three doors that a contestant must choose 
+from, one contains a new car and the two others contain goats.
+After selecting their original door, a remaining door contianing 
+a goat is opened.  After that the contestant has the ability to 
+switch their choice to the remaining door or stay with their original
+choice.  This package examines the liklihood of success in winning the 
+game and car by simulating both strategies. 
+License: `use_mit_license()`, `use_gpl3_license()` or friends to
+    pick a license
+Encoding: UTF-8
+LazyData: true
+Roxygen: list(markdown = TRUE)
+RoxygenNote: 7.1.1
